@@ -241,25 +241,25 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-A string is a data type that stores a series of characters inside quotation marks.
+A data type that stores a set of characters inside quotation marks, double quotation marks, or backticks.
 ```
 
 **_Number_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A data type that stores whole numbers or decimals. No quotes are needed when declaring.
 ```
 
 **_Boolean_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A data type that stores true/false values and they are generally used to test a condition or evaluate an expression.
 ```
 
 **_Array_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A data type that can contains multiple values within square brackets and separated by commas.
 ```
 
 ### B.3. Trace the value of `x`
