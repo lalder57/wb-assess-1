@@ -33,7 +33,7 @@ answer.
 - [ ] **A.** `sum++`
 - [ ] **B.** `sum += 1`
 - [ ] **C.** `sum = sum + 1`
-- [ ] **D.** All of the above
+- [x] **D.** All of the above
 - [ ] **E.** Some of the above
 
 ### A.3. What's the output?
@@ -106,7 +106,7 @@ function makeWordArray(phrase) {
 - [ ] **A.** Nothing happens because the program errors out.
 - [ ] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
 - [ ] **C.** It defines a function called `makeWordArray` and outputs a word array.
-- [ ] **D.** It defines a function called `makeWordArray` but nothing else happens.
+- [x] **D.** It defines a function called `makeWordArray` but nothing else happens.
 
 ### A.7. Identify the error
 
@@ -118,7 +118,7 @@ console.log'hi';
 // hi
 ```
 
-- [ ] **A.** The code causes an error because there should be parentheses around `'hi'`.
+- [x] **A.** The code causes an error because there should be parentheses around `'hi'`.
 - [ ] **B.** The code causes an error because `console.log` isn't a function.
 - [ ] **C.** The code causes an error because the code will run but it won't output anything.
 - [ ] **D.** There is no error; the code generates the expected output.
@@ -225,13 +225,13 @@ Functions can be used to create named blocks of code that can be executed/reused
 **_What is the difference between `console.log` and `return`?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+`console.log` will allow you to print something in the console to see if your code is doing what you want it to do, but it will not cause anything for the user to see. `return` is used to end a function and then it can return a value (if stated in the function) to the user.
 ```
 
 **_What's the difference between defining and calling a function?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+Defining a function is where you create it and decide what it is going to do, how many parameters (if any) it will take, and essentially set it up so it can be run later. Calling a function is when you tell the code to run the function that you made, or in other words, you execute the function. 
 ```
 
 ### B.2. Describe these data types.
@@ -241,7 +241,7 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A string is a data type that stores a series of characters inside quotation marks.
 ```
 
 **_Number_**
@@ -282,7 +282,7 @@ completed for you.
 
 ```
 Initial values: y = 0, x = 5
-1:              y = 1, x = ??
-2:              y = 2, x = ??
-3:              y = 3, x = ??
+1:              y = 1, x = 10
+2:              y = 2, x = 15
+3:              y = 3, x = 20
 ```
