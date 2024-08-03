@@ -106,7 +106,11 @@ function smallestNItems(items, n) {
 //   findIndex(['a', 'b', 'c', 'a', 'b', 'c'], 'c');
 //   => 2
 function findIndex(items, value) {
-  let newArray = [];
+  if (items.indexOf(value) === -1) {
+    return undefined;
+  } else {
+  return items.indexOf(value);
+  }
 }
 
 // Given a start number and stop number, return a new array containing all the numbers
@@ -114,7 +118,13 @@ function findIndex(items, value) {
 // Ex.:
 //   range(1, 5);
 //   => [1, 2, 3, 4, 5]
-function range(start, stop) {}
+function range(start, stop) {
+  let newArray  = [];
+  for (let i = start; i <= stop; i++) {
+    newArray.push(i);
+  }
+  return newArray;
+}
 
 export {
   bWords,
