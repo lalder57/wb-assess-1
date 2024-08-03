@@ -34,14 +34,25 @@ function bWords(words) {
 //  extend([1, 2, 3], [4, 5, 6]);
 //  => [1, 2, 3, 4, 5, 6]
 function extend(originalArray, additionalItems) {
-
+  for (let i = 0; i < additionalItems.length; i++) {
+    originalArray.push(additionalItems[i]);
+  }
+  return originalArray;
 }
 
 // Return an array of all items with the given length.
 // Ex.:
 //   itemsWithLength(['a', 'bbb', 'cccc', 'dddddd', 'eee'], 3);
 //   => ['bbb', 'eee']
-function itemsWithLength(items, length) {}
+function itemsWithLength(items, length) {
+  let newArray = [];
+  for (let i = 0; i < items.length; i++) {
+    if (items[i].length === length) {
+      newArray.push(items[i]);
+    }
+  }
+  return newArray;
+}
 
 // Return an array with every other element from the input array (start with index 0).
 // Ex.:
