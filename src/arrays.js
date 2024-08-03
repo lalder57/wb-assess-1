@@ -88,7 +88,16 @@ function findWordsStartingWith(words, letter) {
 // Ex.:
 //   smallestNItems([1, 30, 4, 21, 100000], 3);
 //   => [21, 4, 1]
-function smallestNItems(items, n) {}
+function smallestNItems(items, n) {
+  let newArray = [];
+  for (let i = 0; i < n; i++) {
+    let newMin = Math.min(...items); 
+    newArray.unshift(newMin); 
+    let indexOfMin = items.indexOf(newMin);
+    items.splice(indexOfMin, 1);
+  }
+  return newArray;
+}
 
 // Search for a value in the array and return its index. If the value appears
 // more than once, return the index of the *FIRST* occurrence of the value. If
@@ -96,7 +105,9 @@ function smallestNItems(items, n) {}
 // Ex.:
 //   findIndex(['a', 'b', 'c', 'a', 'b', 'c'], 'c');
 //   => 2
-function findIndex(items, value) {}
+function findIndex(items, value) {
+  let newArray = [];
+}
 
 // Given a start number and stop number, return a new array containing all the numbers
 // between the start and stop number.
